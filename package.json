@@ -7,19 +7,12 @@
     "type": "git",
     "url": "git+https://github.com/brikelley/custom-tour-creator.git"
   },
-  "config": {
-    "deployUrl": "https://<org>.bluestep.net/files/<id>/",
-    "deploypathsuffix": "static",
-    "builddir": "dist"
-  },
   "scripts": {
     "dev": "vite",
     "build": "tsc -b && vite build",
-    "deploy": "deploy-lib",
     "preview": "vite preview"
   },
   "dependencies": {
-    "@bluestep/deploy-lib": "github:BlueStep-Platform/deploy-lib",
     "preact": "^10.29.7"
   },
   "devDependencies": {

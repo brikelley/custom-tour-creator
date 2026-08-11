@@ -50,6 +50,7 @@ jobs:
           fi
 
           git rm -r --ignore-unmatch .
+          git clean -fdx
           cp -R "$deploy_dir/." .
           git add -A
 
